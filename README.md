@@ -1,6 +1,8 @@
 # URL Shortener / URL缩短器
 A simple url shortener.
+
 一个简单的URL Shortener。
+
 ## How to install
 Create a table called `urls` in your database.
 ```sql
@@ -26,3 +28,7 @@ CREATE TABLE urls (id BIGINT PRIMARY KEY AUTO_INCREMENT, target_url LONGTEXT);
 ```js
 $("#success span").text("{你的服务器地址}?h=" + data.id.toString(16));
 ```
+
+## Speed coding video / Actual time ~1.7hrs.
+
+## 快速编程视频 / 实际时间 ~1.7小时
