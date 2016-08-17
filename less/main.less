@@ -1,0 +1,119 @@
+@default-white:#FAFAFA;
+@default-font:GeosansLight;
+
+@font-face {
+  font-family: GeosansLight;
+  src: url(../fonts/GeosansLight.ttf);
+}
+
+body {
+  padding:0;
+  margin:0;
+  background-color:#1565C0;
+}
+
+.app-container {
+  background-color:#1565C0;
+  min-height:100vh;
+
+  h1 {
+    color:@default-white;
+    text-align:center;
+    margin:0;
+    padding-top:100px;
+    font-size:70px;
+    font-weight:100;
+    font-family:@default-font;
+    letter-spacing:1px;
+  }
+
+  h2 {
+    text-align:center;
+    color:#BBDEFB;
+    font-family:@default-font;
+    font-weight:100;
+  }
+
+  form {
+    text-align:center;
+    padding-top:100px;
+    .primary-input {
+      background-color:#E3F2FD;
+      color:#1565C0;
+      font-family:@default-font;
+      font-size:20px;
+      text-align:center;
+      outline:none;
+      border:none;
+      padding:10px;
+      border-radius:5px;
+      width:60%;
+      transition:all ease 0.3s;
+      &:focus {
+        background-color:#FAFAFA;
+        padding-top:10px;
+        padding-bottom:10px;
+        transition:all ease 0.3s;
+        font-size:25px;
+      }
+    }
+
+    button {
+      color:#E3F2FD;
+      background-color:transparent;
+      margin-top:30px;
+      font-size:20px;
+      padding-bottom:10px;
+      padding-top:10px;
+      border:none;
+      border-bottom:#E3F2FD 2px solid;
+      font-family:@default-font;
+      outline:none;
+      transition:all ease 0.3s;
+      cursor:pointer;
+      &:hover {
+        padding-left:30px;
+        padding-right:30px;
+        background-color:#E3F2FD;
+        color:#1565C0;
+        transition:all ease 0.3s;
+      }
+    }
+
+    p.error {
+      color:#FFCDD2;
+      font-size:18px;
+      display:none;
+      font-family:@default-font;
+    }
+
+    p.success {
+      color:#C8E6C9;
+      font-size:18px;
+      display:none;
+      font-family:@default-font;
+      span {
+        background-color:#E8F5E9;
+        color:#2E7D32;
+        border-radius:5px;
+        display:inline-block;
+        padding:10px;
+        margin:10px;
+      }
+    }
+  }
+
+  p.copyright {
+    text-align:center;
+    font-size:12px;
+    font-family:@default-font;
+    padding-top:100px;
+    color:#90CAF9;
+    a:link {
+      color:inherit;
+    }
+    a:visited {
+      color:inherit;
+    }
+  }
+}

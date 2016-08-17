@@ -1,0 +1,23 @@
+{
+  "default-lang":"en",
+  "data":{
+    "en":{
+      "title":"URL Shortener",
+      "app-heading":"Modern URL Shortener",
+      "app-sub-heading":"An URL shortener for developers.",
+      "enter-url":"Enter an URL",
+      "shorten-it":"Shorten it!",
+      "ready-for-use":"Your new URL is ready for use!",
+      "another-url":"Why not shorten another URL?"
+    },
+    "zh":{
+      "title":"URL缩短服务",
+      "app-heading":"URL缩短服务",
+      "app-sub-heading":"为程序员打造的URL缩短程序。",
+      "enter-url":"输入URL",
+      "shorten-it":"缩短",
+      "ready-for-use":"这是您的新URL",
+      "another-url":"再缩短一个URL？"
+    }
+  }
+}
